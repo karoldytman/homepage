@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+.mainBody {
+
+    max-width: 1200px;
+    padding: 3px;
+    background-color: #e0e0e0;
+    color: #000000;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainHeader {
+    background-color: aliceblue;
+    width: 382px;
+    height: 79px;
+    border: 8px groove red;
+    margin: 3% 0% 4% 5%;
+
+}
+
+.mainHeader__title {
+    color: rgb(250, 6, 6);
+    margin: 2% 0% -4% 3%;
+
+}
+
+.mainHeader__title--paragraph {
+    margin: 2% 0% 0% 7%;
+}
+
+.js__button {
+    border: 2px solid greenyellow;
+    color: rgb(250, 251, 252);
+    background-color: crimson;
+    padding: 1%;
+    font-weight: bold;
+    margin: 0px 0px 40px 20px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navigation__item {
+    border: 2px groove rgb(20, 20, 20);
+    background-color: rgb(249, 2, 2);
+    border-radius: 25px 25px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(250, 251, 252);
+    box-shadow: 0px -17px 79px 10px rgb(250, 154, 154);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.title {
+    text-align: center;
+    margin: 4%;
+
+}
+
+.titlt__image {
+    margin: 20px;
+}
+
+.section__header {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid crimson;
+    padding: 1%;
+    background-color: rgb(249, 165, 165);
+    color: black;
+}
+
+.section__aside--desing {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+
+.sectionParagraph__list {
+    border: 2px solid bisque;
+    background-color: bisque;
+    border-radius: 15% 15% 15% 15%;
+    max-width: max-content;
+    max-height: max-content;
+    margin-left: 2%;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+    color: black;
+}
+
+.contener {
+    overflow-x: auto;
+    background-color: aquamarine;
+
+}
+
+
+.table {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    overflow-x: auto;
+    color: black;
+}
+
+.table__header {
+    background-color: bisque;
+    color: black;
+}
+
+.table__caption {
+    background-color: rgb(246, 196, 121);
+    color: black;
+}
+
+.table__row:hover {
+    background-color: rgb(13, 255, 0);
+}
+
+.footer {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 400%;
+}
+
+
+.color {
+    color: #6f8d42;
+    background-color: black;
+
+}
+
+
+
