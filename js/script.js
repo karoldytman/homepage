@@ -1,4 +1,4 @@
-console.log("Hellooooo dwa kropka zero"
+console.log("Hellooooo"
 );
 
 let js__button = document.querySelector(".js__button");
