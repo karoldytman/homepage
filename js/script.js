@@ -1,17 +1,31 @@
-console.log("Hellooooo"
-);
+{
+    const welcome = () => {
+        console.log("Hellooooo"
+        );
+    };
 
-let js__button = document.querySelector(".js__button");
-let mainBody = document.querySelector(".mainBody");
+    const onChangeBackgroundClic = () => {
+        const mainBody = document.querySelector(".mainBody")
+        const js__button = document.querySelector(".js__button");
+        mainBody.classList.toggle("color")
 
-js__button.addEventListener("click", () => {
-    mainBody.classList.toggle("color")
+        if (mainBody.classList.contains("color")) {
+            js__button.innerText = "OFF";
+        } else {
+            js__button.innerText = "ON";
+        }
 
-    if (mainBody.classList.contains("color")) {
-        js__button.innerText = "OFF";
-    } else {
-        js__button.innerText = "ON";
-    }
-});
+    };
+
+    const init = () => {
+        const js__button = document.querySelector(".js__button");
+        js__button.addEventListener("click", onChangeBackgroundClic);
+
+        welcome();
+    };
+    init();
+
+};
+
 
 
