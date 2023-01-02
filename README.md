@@ -8,4 +8,6 @@ https://karoldytman.github.io/homepage/
  
  ## Description
  
+ <img src = "https://github.com/karoldytman/homepage/blob/main/images/AnimationHomepage.gif">
+ 
  
