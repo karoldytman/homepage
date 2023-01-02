@@ -17,4 +17,11 @@ https://karoldytman.github.io/homepage/
  - Contact
  <img src = "https://github.com/karoldytman/homepage/blob/main/images/AnimationHomepage.gif">
  
+## Tools used in the project
+- HTML
+- CSS
+- JavaScript
+- BEM
+- ES6
+ 
  
