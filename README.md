@@ -8,4 +8,20 @@ https://karoldytman.github.io/homepage/
  
  ## Description
  
+ This is the website of a company that builds modern houses.
+ We will find on the site:
+ - Sample projects
+ - Scope of construction work
+ - Estimate
+ - About us
+ - Contact
+ <img src = "https://github.com/karoldytman/homepage/blob/main/images/AnimationHomepage.gif">
+ 
+## Technologies used in the project
+- HTML
+- CSS
+- JavaScript
+- BEM
+- ES6
+ 
  
